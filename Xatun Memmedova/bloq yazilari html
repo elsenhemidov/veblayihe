@@ -1,1 +1,27 @@
+<section id="bloq" class="section">
+    <div class="container">
+        <h2>Bloq yazıları</h2>
+        <div class="cards">
+            <article class="card">
+                <h3>Güclü şifrələr niyə vacibdir?</h3>
+                <p>
+                    Güclü şifrələr hesablarınızı icazəsiz girişlərdən qorumağa kömək edir.
+                </p>
+            </article>
 
+            <article class="card">
+                <h3>Phishing hücumlarından necə qorunmaq olar?</h3>
+                <p>
+                    Şübhəli e-poçtları, saxta saytları və naməlum linkləri diqqətlə yoxlamaq lazımdır.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Zərərli proqramlar və viruslar</h3>
+                <p>
+                    Zərərli proqramlar kompüterinizə ziyan vura və məlumatlarınızı oğurlaya bilər.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>

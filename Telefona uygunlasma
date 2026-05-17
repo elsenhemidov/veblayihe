@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+    .menu a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .tips {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+}

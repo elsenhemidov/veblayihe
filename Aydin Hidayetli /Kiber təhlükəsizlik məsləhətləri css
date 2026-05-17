@@ -1,1 +1,12 @@
+.tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
 
+.tip {
+    background-color: #ffffff;
+    border-left: 5px solid #1f8fd1;
+    padding: 15px;
+    border-radius: 4px;
+}

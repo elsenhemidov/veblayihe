@@ -1,0 +1,12 @@
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Kiber Bloq</h1>
+        <nav class="menu">
+            <a href="#ana-sehife">Ana səhifə</a>
+            <a href="#bloq">Bloq yazıları</a>
+            <a href="#meslehetler">Kiber təhlükəsizlik məsləhətləri</a>
+            <a href="#haqqimizda">Haqqımızda</a>
+            <a href="#elaqe">Əlaqə</a>
+        </nav>
+    </div>
+</header>

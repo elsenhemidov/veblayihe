@@ -1,1 +1,8 @@
-
+.text-box {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d6e4ee;
+    padding: 20px;
+    border-radius: 6px;
+}

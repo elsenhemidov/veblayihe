@@ -1,1 +1,13 @@
 
+<section id="meslehetler" class="section light-section">
+    <div class="container">
+        <h2>Kiber təhlükəsizlik məsləhətləri</h2>
+        <div class="tips">
+            <div class="tip">Güclü və fərqli şifrələrdən istifadə edin.</div>
+            <div class="tip">Şübhəli linklərə daxil olmayın.</div>
+            <div class="tip">İki mərhələli təsdiqləməni aktiv edin.</div>
+            <div class="tip">Proqramları mütəmadi yeniləyin.</div>
+            <div class="tip">Şəxsi məlumatlarınızı hər saytda paylaşmayın.</div>
+        </div>
+    </div>
+</section>

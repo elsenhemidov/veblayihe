@@ -1,1 +1,10 @@
-
+<section id="elaqe" class="section light-section">
+    <div class="container">
+        <h2>Əlaqə</h2>
+        <div class="contact-box">
+            <p><strong>Email:</strong> cyberblog@example.com</p>
+            <p><strong>Telefon:</strong> +994 00 000 00 00</p>
+            <p><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
+        </div>
+    </div>
+</section>

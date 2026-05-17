@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 55px 0;
+}
+
+.section h2 {
+    color: #0b2d4d;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.light-section {
+    background-color: #f2f5f8;
+}

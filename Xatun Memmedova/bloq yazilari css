@@ -1,1 +1,17 @@
+.cards {
+    display: flex;
+    gap: 20px;
+}
 
+.card {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #d6e4ee;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.card h3 {
+    color: #1f8fd1;
+    margin-top: 0;
+}

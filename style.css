@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #0b2d4d;
+    color: #ffffff;
+    padding: 18px 0;
+}
+
+.logo {
+    margin: 0 0 12px;
+    font-size: 26px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #7cc7ff;
+}
+
+.hero {
+    background-color: #eaf6ff;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #0b2d4d;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    color: #555555;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1f8fd1;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0b2d4d;
+}
+
+.section {
+    padding: 55px 0;
+}
+
+.section h2 {
+    color: #0b2d4d;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.light-section {
+    background-color: #f2f5f8;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #d6e4ee;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.card h3 {
+    color: #1f8fd1;
+    margin-top: 0;
+}
+
+.tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.tip {
+    background-color: #ffffff;
+    border-left: 5px solid #1f8fd1;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.text-box,
+.contact-box {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d6e4ee;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.contact-box p {
+    margin: 8px 0;
+}
+
+.footer {
+    background-color: #0b2d4d;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .menu a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .tips {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+}

@@ -1,11 +1,41 @@
-
-<section id="haqqimizda" class="section">
+<section id="statistika" class="section">
     <div class="container">
-        <h2>Haqqımızda</h2>
-        <p class="text-box">
-            Bu veb sayt tələbələr tərəfindən əsas kiber təhlükəsizlik biliklərini
-            paylaşmaq üçün hazırlanmışdır. Məqsədimiz internetdən istifadə edən
-            hər kəsə sadə və faydalı məlumatlar təqdim etməkdir.
-        </p>
+        <h2>Kiber hücum statistikası</h2>
+        <div class="chart-box">
+            <div class="chart-title">Ən çox rast gəlinən hücum növləri</div>
+            <div class="chart-bars">
+                <div class="chart-row">
+                    <span class="chart-label">Phishing</span>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar" style="--w:82%">82%</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">Malware</span>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar" style="--w:67%">67%</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">Ransomware</span>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar bar-orange" style="--w:45%">45%</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">Brute Force</span>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar bar-orange" style="--w:38%">38%</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">DDoS</span>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar bar-red" style="--w:24%">24%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart-note">* 2024-cü il qlobal kibertəhlükəsizlik hesabatına əsasən</div>
+        </div>
     </div>
 </section>

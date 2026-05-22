@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="az">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiber Təhlükəsizlik Bloqu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style (1).css">
 </head>
+
 <body>
+
+    <div class="progress-bar" id="progressBar"></div>
+
     <header class="header">
-        <div class="container">
-            <h1 class="logo">Kiber Bloq</h1>
+        <div class="container header-inner">
+            <h1 class="logo">🔐 Kiber <span>Bloq</span></h1>
             <nav class="menu">
                 <a href="#ana-sehife">Ana səhifə</a>
                 <a href="#bloq">Bloq yazıları</a>
-                <a href="#meslehetler">Kiber təhlükəsizlik məsləhətləri</a>
+                <a href="#meslehetler">Məsləhətlər</a>
+                <a href="#statistika">Statistika</a>
                 <a href="#haqqimizda">Haqqımızda</a>
                 <a href="#elaqe">Əlaqə</a>
             </nav>
@@ -22,13 +28,49 @@
 
     <main>
         <section id="ana-sehife" class="hero">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
             <div class="container">
+                <div class="hero-icon">🛡️</div>
                 <h2>Kiber Təhlükəsizlik Bloqu</h2>
                 <p>
                     Bu bloqda kiber təhlükəsizlik haqqında sadə məlumatlar öyrənə
                     və internetdə daha təhlükəsiz qalmaq üçün faydalı məsləhətlər tapa bilərsiniz.
                 </p>
-                <a class="button" href="#bloq">Bloq yazılarına bax</a>
+                <div class="hero-badges">
+                    <span class="badge">🔐 Şifrələmə</span>
+                    <span class="badge">🛡️ Qoruma</span>
+                    <span class="badge">🎣 Phishing</span>
+                    <span class="badge">🦠 Viruslar</span>
+                </div>
+                <a class="button" href="#bloq">Bloq yazılarına bax →</a>
+            </div>
+        </section>
+
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stat-item">
+                    <span class="stat-num" data-target="1200">0</span>+
+                    <span class="stat-label">Oxucu</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="48">0</span>+
+                    <span class="stat-label">Məqalə</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="5">0</span>
+                    <span class="stat-label">Mövzu</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num" data-target="100">0</span>%
+                    <span class="stat-label">Pulsuz</span>
+                </div>
             </div>
         </section>
 
@@ -37,24 +79,25 @@
                 <h2>Bloq yazıları</h2>
                 <div class="cards">
                     <article class="card">
+                        <div class="card-tag">Şifrə təhlükəsizliyi</div>
+                        <div class="card-icon">🔑</div>
                         <h3>Güclü şifrələr niyə vacibdir?</h3>
-                        <p>
-                            Güclü şifrələr hesablarınızı icazəsiz girişlərdən qorumağa kömək edir.
-                        </p>
+                        <p>Güclü şifrələr hesablarınızı icazəsiz girişlərdən qorumağa kömək edir.</p>
+                        <a href="#" class="card-link">Daha çox oxu →</a>
                     </article>
-
                     <article class="card">
+                        <div class="card-tag">Sosial mühəndislik</div>
+                        <div class="card-icon">🎣</div>
                         <h3>Phishing hücumlarından necə qorunmaq olar?</h3>
-                        <p>
-                            Şübhəli e-poçtları, saxta saytları və naməlum linkləri diqqətlə yoxlamaq lazımdır.
-                        </p>
+                        <p>Şübhəli e-poçtları, saxta saytları və naməlum linkləri diqqətlə yoxlamaq lazımdır.</p>
+                        <a href="#" class="card-link">Daha çox oxu →</a>
                     </article>
-
                     <article class="card">
+                        <div class="card-tag">Zərərli proqramlar</div>
+                        <div class="card-icon">🦠</div>
                         <h3>Zərərli proqramlar və viruslar</h3>
-                        <p>
-                            Zərərli proqramlar kompüterinizə ziyan vura və məlumatlarınızı oğurlaya bilər.
-                        </p>
+                        <p>Zərərli proqramlar kompüterinizə ziyan vura və məlumatlarınızı oğurlaya bilər.</p>
+                        <a href="#" class="card-link">Daha çox oxu →</a>
                     </article>
                 </div>
             </div>
@@ -64,16 +107,77 @@
             <div class="container">
                 <h2>Kiber təhlükəsizlik məsləhətləri</h2>
                 <div class="tips">
-                    <div class="tip">Güclü və fərqli şifrələrdən istifadə edin.</div>
-                    <div class="tip">Şübhəli linklərə daxil olmayın.</div>
-                    <div class="tip">İki mərhələli təsdiqləməni aktiv edin.</div>
-                    <div class="tip">Proqramları mütəmadi yeniləyin.</div>
-                    <div class="tip">Şəxsi məlumatlarınızı hər saytda paylaşmayın.</div>
+                    <div class="tip">
+                        <span class="tip-icon">🔒</span>
+                        <span>Güclü və fərqli şifrələrdən istifadə edin.</span>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">⚠️</span>
+                        <span>Şübhəli linklərə daxil olmayın.</span>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">✅</span>
+                        <span>İki mərhələli təsdiqləməni aktiv edin.</span>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">🔄</span>
+                        <span>Proqramları mütəmadi yeniləyin.</span>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">🙈</span>
+                        <span>Şəxsi məlumatlarınızı hər saytda paylaşmayın.</span>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">📶</span>
+                        <span>İctimai Wi-Fi-da VPN istifadə edin.</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="haqqimizda" class="section">
+        <section id="statistika" class="section">
+            <div class="container">
+                <h2>Kiber hücum statistikası</h2>
+                <div class="chart-box">
+                    <div class="chart-title">Ən çox rast gəlinən hücum növləri</div>
+                    <div class="chart-bars">
+                        <div class="chart-row">
+                            <span class="chart-label">Phishing</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar" style="--w:82%">82%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Malware</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar" style="--w:67%">67%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Ransomware</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar bar-orange" style="--w:45%">45%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">Brute Force</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar bar-orange" style="--w:38%">38%</div>
+                            </div>
+                        </div>
+                        <div class="chart-row">
+                            <span class="chart-label">DDoS</span>
+                            <div class="chart-bar-wrap">
+                                <div class="chart-bar bar-red" style="--w:24%">24%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-note">* 2024-cü il qlobal kibertəhlükəsizlik hesabatına əsasən</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="haqqimizda" class="section light-section">
             <div class="container">
                 <h2>Haqqımızda</h2>
                 <p class="text-box">
@@ -84,20 +188,87 @@
             </div>
         </section>
 
-        <section id="elaqe" class="section light-section">
+        <section id="elaqe" class="section">
             <div class="container">
                 <h2>Əlaqə</h2>
                 <div class="contact-box">
-                    <p><strong>Email:</strong> cyberblog@example.com</p>
-                    <p><strong>Telefon:</strong> +994 00 000 00 00</p>
-                    <p><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
+                    <p><span class="contact-icon">📧</span><strong>Email:</strong> cyberblog@example.com</p>
+                    <p><span class="contact-icon">📞</span><strong>Telefon:</strong> +994 00 000 00 00</p>
+                    <p><span class="contact-icon">📍</span><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p>&copy; 2026 Kiber Təhlükəsizlik Bloqu. Bütün hüquqlar qorunur.</p>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#ana-sehife">Ana səhifə</a>
+                <a href="#bloq">Bloq</a>
+                <a href="#meslehetler">Məsləhətlər</a>
+                <a href="#elaqe">Əlaqə</a>
+            </div>
+            <p>🔐 &copy; 2026 Kiber Təhlükəsizlik Bloqu. Bütün hüquqlar qorunur.</p>
+        </div>
     </footer>
+
+    <a href="#ana-sehife" class="back-to-top" id="backToTop">↑</a>
+
+    <script>
+        // Scroll progress bar
+        window.addEventListener('scroll', function () {
+            const winScroll = document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('progressBar').style.width = scrolled + '%';
+
+            // Back to top button
+            const btn = document.getElementById('backToTop');
+            btn.style.opacity = winScroll > 300 ? '1' : '0';
+            btn.style.pointerEvents = winScroll > 300 ? 'auto' : 'none';
+        });
+
+        // Animated counters
+        function animateCounter(el) {
+            const target = parseInt(el.getAttribute('data-target'));
+            const duration = 1200;
+            const step = target / (duration / 16);
+            let current = 0;
+            const timer = setInterval(function () {
+                current += step;
+                if (current >= target) {
+                    el.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    el.textContent = Math.floor(current);
+                }
+            }, 16);
+        }
+
+        // Trigger counters when stats bar is visible
+        const statsBar = document.querySelector('.stats-bar');
+        let counted = false;
+        const observer = new IntersectionObserver(function (entries) {
+            if (entries[0].isIntersecting && !counted) {
+                counted = true;
+                document.querySelectorAll('.stat-num').forEach(animateCounter);
+            }
+        });
+        observer.observe(statsBar);
+
+        // Animate chart bars on scroll
+        const chartSection = document.querySelector('#statistika');
+        let charted = false;
+        const chartObserver = new IntersectionObserver(function (entries) {
+            if (entries[0].isIntersecting && !charted) {
+                charted = true;
+                document.querySelectorAll('.chart-bar').forEach(function (bar) {
+                    bar.classList.add('animate');
+                });
+            }
+        });
+        chartObserver.observe(chartSection);
+    </script>
 </body>
+
 </html>

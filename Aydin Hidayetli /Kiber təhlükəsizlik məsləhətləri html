@@ -1,13 +1,46 @@
-
-<section id="meslehetler" class="section light-section">
+<section id="ana-sehife" class="hero">
+    <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
     <div class="container">
-        <h2>Kiber təhlükəsizlik məsləhətləri</h2>
-        <div class="tips">
-            <div class="tip">Güclü və fərqli şifrələrdən istifadə edin.</div>
-            <div class="tip">Şübhəli linklərə daxil olmayın.</div>
-            <div class="tip">İki mərhələli təsdiqləməni aktiv edin.</div>
-            <div class="tip">Proqramları mütəmadi yeniləyin.</div>
-            <div class="tip">Şəxsi məlumatlarınızı hər saytda paylaşmayın.</div>
+        <div class="hero-icon">🛡️</div>
+        <h2>Kiber Təhlükəsizlik Bloqu</h2>
+        <p>
+            Bu bloqda kiber təhlükəsizlik haqqında sadə məlumatlar öyrənə
+            və internetdə daha təhlükəsiz qalmaq üçün faydalı məsləhətlər tapa bilərsiniz.
+        </p>
+        <div class="hero-badges">
+            <span class="badge">🔐 Şifrələmə</span>
+            <span class="badge">🛡️ Qoruma</span>
+            <span class="badge">🎣 Phishing</span>
+            <span class="badge">🦠 Viruslar</span>
+        </div>
+        <a class="button" href="#bloq">Bloq yazılarına bax →</a>
+    </div>
+</section>
+
+<section class="stats-bar">
+    <div class="container">
+        <div class="stat-item">
+            <span class="stat-num" data-target="1200">0</span>+
+            <span class="stat-label">Oxucu</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="48">0</span>+
+            <span class="stat-label">Məqalə</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-label">Mövzu</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="100">0</span>%
+            <span class="stat-label">Pulsuz</span>
         </div>
     </div>
 </section>

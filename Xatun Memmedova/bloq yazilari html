@@ -1,27 +1,21 @@
-<section id="bloq" class="section">
+<section id="haqqimizda" class="section light-section">
     <div class="container">
-        <h2>Bloq yazıları</h2>
-        <div class="cards">
-            <article class="card">
-                <h3>Güclü şifrələr niyə vacibdir?</h3>
-                <p>
-                    Güclü şifrələr hesablarınızı icazəsiz girişlərdən qorumağa kömək edir.
-                </p>
-            </article>
+        <h2>Haqqımızda</h2>
+        <p class="text-box">
+            Bu veb sayt tələbələr tərəfindən əsas kiber təhlükəsizlik biliklərini
+            paylaşmaq üçün hazırlanmışdır. Məqsədimiz internetdən istifadə edən
+            hər kəsə sadə və faydalı məlumatlar təqdim etməkdir.
+        </p>
+    </div>
+</section>
 
-            <article class="card">
-                <h3>Phishing hücumlarından necə qorunmaq olar?</h3>
-                <p>
-                    Şübhəli e-poçtları, saxta saytları və naməlum linkləri diqqətlə yoxlamaq lazımdır.
-                </p>
-            </article>
-
-            <article class="card">
-                <h3>Zərərli proqramlar və viruslar</h3>
-                <p>
-                    Zərərli proqramlar kompüterinizə ziyan vura və məlumatlarınızı oğurlaya bilər.
-                </p>
-            </article>
+<section id="elaqe" class="section">
+    <div class="container">
+        <h2>Əlaqə</h2>
+        <div class="contact-box">
+            <p><span class="contact-icon">📧</span><strong>Email:</strong> cyberblog@example.com</p>
+            <p><span class="contact-icon">📞</span><strong>Telefon:</strong> +994 00 000 00 00</p>
+            <p><span class="contact-icon">📍</span><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
         </div>
     </div>
 </section>

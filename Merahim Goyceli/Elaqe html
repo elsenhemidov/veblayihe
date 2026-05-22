@@ -1,10 +1,28 @@
-<section id="elaqe" class="section light-section">
+<section id="bloq" class="section">
     <div class="container">
-        <h2>Əlaqə</h2>
-        <div class="contact-box">
-            <p><strong>Email:</strong> cyberblog@example.com</p>
-            <p><strong>Telefon:</strong> +994 00 000 00 00</p>
-            <p><strong>Ünvan:</strong> Bakı, Azərbaycan</p>
+        <h2>Bloq yazıları</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card-tag">Şifrə təhlükəsizliyi</div>
+                <div class="card-icon">🔑</div>
+                <h3>Güclü şifrələr niyə vacibdir?</h3>
+                <p>Güclü şifrələr hesablarınızı icazəsiz girişlərdən qorumağa kömək edir.</p>
+                <a href="#" class="card-link">Daha çox oxu →</a>
+            </article>
+            <article class="card">
+                <div class="card-tag">Sosial mühəndislik</div>
+                <div class="card-icon">🎣</div>
+                <h3>Phishing hücumlarından necə qorunmaq olar?</h3>
+                <p>Şübhəli e-poçtları, saxta saytları və naməlum linkləri diqqətlə yoxlamaq lazımdır.</p>
+                <a href="#" class="card-link">Daha çox oxu →</a>
+            </article>
+            <article class="card">
+                <div class="card-tag">Zərərli proqramlar</div>
+                <div class="card-icon">🦠</div>
+                <h3>Zərərli proqramlar və viruslar</h3>
+                <p>Zərərli proqramlar kompüterinizə ziyan vura və məlumatlarınızı oğurlaya bilər.</p>
+                <a href="#" class="card-link">Daha çox oxu →</a>
+            </article>
         </div>
     </div>
 </section>

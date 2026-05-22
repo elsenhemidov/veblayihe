@@ -1,13 +1,70 @@
-
-.contact-box {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #d6e4ee;
-    padding: 20px;
-    border-radius: 6px;
+.cards {
+    display: flex;
+    gap: 20px;
 }
 
-.contact-box p {
-    margin: 8px 0;
+.card {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #b8d8ef;
+    padding: 24px 20px;
+    border-radius: 8px;
+    border-top: 4px solid #1f8fd1;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(11, 45, 77, 0.13);
+}
+
+.card-tag {
+    display: inline-block;
+    background-color: #eaf4fc;
+    color: #1f8fd1;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.card-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #0b2d4d;
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.card p {
+    flex: 1;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #1f8fd1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: letter-spacing 0.2s;
+}
+
+.card-link:hover {
+    letter-spacing: 0.5px;
+    color: #0b2d4d;
+}
+
+@media (max-width: 700px) {
+    .cards {
+        flex-direction: column;
+    }
 }

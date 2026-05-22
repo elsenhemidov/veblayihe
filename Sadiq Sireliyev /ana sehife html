@@ -1,10 +1,31 @@
-<section id="ana-sehife" class="hero">
+<section id="meslehetler" class="section light-section">
     <div class="container">
-        <h2>Kiber Təhlükəsizlik Bloqu</h2>
-        <p>
-            Bu bloqda kiber təhlükəsizlik haqqında sadə məlumatlar öyrənə
-            və internetdə daha təhlükəsiz qalmaq üçün faydalı məsləhətlər tapa bilərsiniz.
-        </p>
-        <a class="button" href="#bloq">Bloq yazılarına bax</a>
+        <h2>Kiber təhlükəsizlik məsləhətləri</h2>
+        <div class="tips">
+            <div class="tip">
+                <span class="tip-icon">🔒</span>
+                <span>Güclü və fərqli şifrələrdən istifadə edin.</span>
+            </div>
+            <div class="tip">
+                <span class="tip-icon">⚠️</span>
+                <span>Şübhəli linklərə daxil olmayın.</span>
+            </div>
+            <div class="tip">
+                <span class="tip-icon">✅</span>
+                <span>İki mərhələli təsdiqləməni aktiv edin.</span>
+            </div>
+            <div class="tip">
+                <span class="tip-icon">🔄</span>
+                <span>Proqramları mütəmadi yeniləyin.</span>
+            </div>
+            <div class="tip">
+                <span class="tip-icon">🙈</span>
+                <span>Şəxsi məlumatlarınızı hər saytda paylaşmayın.</span>
+            </div>
+            <div class="tip">
+                <span class="tip-icon">📶</span>
+                <span>İctimai Wi-Fi-da VPN istifadə edin.</span>
+            </div>
+        </div>
     </div>
 </section>

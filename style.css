@@ -20,7 +20,6 @@ html {
     margin: 0 auto;
 }
 
-/* PROGRESS BAR */
 .progress-bar {
     position: fixed;
     top: 0;
@@ -32,7 +31,6 @@ html {
     transition: width 0.1s;
 }
 
-/* HEADER */
 .header {
     background-color: #0b2d4d;
     color: #ffffff;
@@ -76,7 +74,6 @@ html {
     border-bottom-color: #7cc7ff;
 }
 
-/* HERO */
 .hero {
     background: linear-gradient(135deg, #0b2d4d 0%, #1a5080 60%, #1f8fd1 100%);
     padding: 90px 0;
@@ -182,7 +179,6 @@ html {
     transform: translateY(-2px);
 }
 
-/* STATS BAR */
 .stats-bar {
     background-color: #0b2d4d;
     padding: 28px 0;
@@ -222,7 +218,6 @@ html {
     background: rgba(255,255,255,0.2);
 }
 
-/* SECTIONS */
 .section {
     padding: 60px 0;
 }
@@ -251,7 +246,6 @@ html {
     background-color: #f0f6fc;
 }
 
-/* CARDS */
 .cards {
     display: flex;
     gap: 20px;
@@ -317,7 +311,6 @@ html {
     color: #0b2d4d;
 }
 
-/* TIPS */
 .tips {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -345,7 +338,6 @@ html {
     flex-shrink: 0;
 }
 
-/* CHART */
 .chart-box {
     max-width: 700px;
     margin: 0 auto;
@@ -417,7 +409,6 @@ html {
     margin-top: 14px;
 }
 
-/* TEXT & CONTACT */
 .text-box,
 .contact-box {
     max-width: 700px;
@@ -439,7 +430,6 @@ html {
     font-size: 20px;
 }
 
-/* FOOTER */
 .footer {
     background-color: #0b2d4d;
     color: #cce6ff;
@@ -469,7 +459,6 @@ html {
     font-size: 13px;
 }
 
-/* BACK TO TOP */
 .back-to-top {
     position: fixed;
     bottom: 28px;
@@ -494,7 +483,6 @@ html {
     background: #0b2d4d;
 }
 
-/* RESPONSIVE */
 @media (max-width: 700px) {
     .header-inner {
         flex-direction: column;

@@ -215,20 +215,17 @@
     <a href="#ana-sehife" class="back-to-top" id="backToTop">↑</a>
 
     <script>
-        // Scroll progress bar
         window.addEventListener('scroll', function () {
             const winScroll = document.documentElement.scrollTop;
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
             const scrolled = (winScroll / height) * 100;
             document.getElementById('progressBar').style.width = scrolled + '%';
 
-            // Back to top button
             const btn = document.getElementById('backToTop');
             btn.style.opacity = winScroll > 300 ? '1' : '0';
             btn.style.pointerEvents = winScroll > 300 ? 'auto' : 'none';
         });
 
-        // Animated counters
         function animateCounter(el) {
             const target = parseInt(el.getAttribute('data-target'));
             const duration = 1200;
@@ -245,7 +242,6 @@
             }, 16);
         }
 
-        // Trigger counters when stats bar is visible
         const statsBar = document.querySelector('.stats-bar');
         let counted = false;
         const observer = new IntersectionObserver(function (entries) {
@@ -256,7 +252,6 @@
         });
         observer.observe(statsBar);
 
-        // Animate chart bars on scroll
         const chartSection = document.querySelector('#statistika');
         let charted = false;
         const chartObserver = new IntersectionObserver(function (entries) {
